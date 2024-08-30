@@ -1,5 +1,6 @@
 .venv
 badges/*
+!badges/.gitkeep
 users.json
 messager.html
 .idea
