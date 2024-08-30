@@ -1,0 +1,6 @@
+.venv
+badges/*
+users.json
+messager.html
+.idea
+__pycache__
