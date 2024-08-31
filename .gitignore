@@ -1,7 +1,10 @@
 .venv
 badges/*
 !badges/.gitkeep
+pages/*
+!pages/.gitkeep
 users.json
-messager.html
+html/*
+!html/.gitkeep
 .idea
 __pycache__
