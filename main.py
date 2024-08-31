@@ -1,6 +1,6 @@
 import json
 
-from drawer import create_pages
+from draw import create_pages
 
 
 def main():

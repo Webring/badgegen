@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 def save_users_to_json(input_file_path, output_file_path):
     data = []
 
-    with open(input_file_path, "r") as file:
+    with open(input_file_path, "r", encoding="utf-8") as file:
         content = file.read()
         soup = BeautifulSoup(content, "html.parser")
         list_items = soup.find("div", {"class": "ChatSettingsMembersWidget__list"}).find_all("div", {
@@ -25,4 +25,4 @@ def save_users_to_json(input_file_path, output_file_path):
 
 
 if __name__ == '__main__':
-    save_users_to_json("html/i42.html", "users.json")
+    save_users_to_json("html/pm42.html", "users.json")
